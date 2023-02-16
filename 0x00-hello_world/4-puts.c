@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * this main function  prints out a give string
+ * main - prints exactly 
+ * "Programming is like building a multilingual puzzle, 
+ * followed by a new line.
  *
- * Return an int 0
+ * Return: 0
  */
 int main(void)
 {
