@@ -5,9 +5,8 @@
  * main - 
  * Return: 0
  */
-int main(void)
+int main(int n)
 {
-	int n;
 	int re;
 
 	srand(time(0));
