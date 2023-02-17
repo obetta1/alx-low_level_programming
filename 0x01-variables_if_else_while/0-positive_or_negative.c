@@ -6,7 +6,7 @@
  * each time it is executed. and print whether the
  * number stored in the variable n is positive or negative.
  * 
- * Return: 0
+ * Return:0
  */
 int main(void)
 {
