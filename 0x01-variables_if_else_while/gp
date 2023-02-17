@@ -1,0 +1,6 @@
+#!/bin/bash
+git add .
+echo "ENTER COMMIT MESSAGE"
+read msg
+git commit -m "msg"
+git push -u origin https://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@github.com/obetta1/alx-low_level_programming.git
