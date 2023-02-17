@@ -2,16 +2,17 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - 
+ * main - this print the last digit of number
  * Return: 0
  */
-int main(int n)
+int main(void)
 {
+	int n;
 	int re;
 
 	srand(time(0));
-	/*n = rand() - RAND_MAX / 2;*/
-	re = n%10;
+	n = rand() - RAND_MAX / 2;
+	re = n % 10;
 	if (re > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, re);
 	else if (re == 0)
@@ -20,5 +21,5 @@ int main(int n)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, re);
 	else
 		printf("end");
-	return(0);
+	return (0);
 }
