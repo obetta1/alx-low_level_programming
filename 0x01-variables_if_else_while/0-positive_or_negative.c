@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - assign a random number to the variable n 
+ * main - assign a random number to the variable n
  * each time it is executed. and print whether the
  * number stored in the variable n is positive or negative.
  * 
@@ -11,6 +11,7 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
