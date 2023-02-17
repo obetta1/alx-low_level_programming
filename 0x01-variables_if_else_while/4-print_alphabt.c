@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
- * main - 
+ * main - prints the alphabet in lowercase,
+ * followed by a new line.
  *
  * Return: 0
  */
 int main(void)
 {
 	int i;
-	int c = 0;
+
 	char a = 'a';
-	for(i = 0; i<26; i++)
+	for (i = 0; i < 26; i++)
 	{
 	
-		if(i == 4 || i == 16)
+		if (i == 4 || i == 16)
 		{
 			continue;
 		}
