@@ -10,6 +10,7 @@ int main(void)
 	int i = 0;
 	int c = 0;
 	char a = 'a';
+	
 	while (i < 26)
 	{
 		putchar(i + a);
@@ -20,7 +21,7 @@ int main(void)
 			a = 'A';
 		}
 		i++;
-		if(c == 2)
+		if (c == 2)
 			i = 27;
 	}
 	putchar('\n');
