@@ -11,15 +11,14 @@ int main(void)
 
 	for (i = 0; i <= 8; i++)
 	{
-		for (j = i + 1; j <= 9; j++);
+		for (j = i + 1; j <= 9; j++)
 		{
-			int n = i * 10 + j;
-			putchar(n / 10 + '0');
-			putchar(n % 10 + '0');
-			if (n < 89)
+			putchar(i + 48);
+			putchar(j + 48);
+			if ((i * 10 + j) < 89)
 			{
-				putchar(',');
-				putchar(' ');
+			putchar(',');
+			putchar(' ');
 			}
 		}
 	}
