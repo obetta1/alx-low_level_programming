@@ -3,7 +3,7 @@
 /**
  * print_sign - prints 10 times the alphabet, in lowercase,
  * followed by a new line.
- * @c: The character to check
+ * @n: The character to check
  *
  * Return: 0
  */
