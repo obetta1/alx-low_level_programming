@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int _islower(int c)
+int _abs(int c)
 {
 	int n = abs(c);
 
