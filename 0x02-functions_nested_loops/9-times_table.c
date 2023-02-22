@@ -17,7 +17,7 @@ void times_table(void)
 
 			if (n < 10)
 			{
-				if (i == 0 && j == 0 || n > 0)
+				if ((i == 0 && j == 0) || (n > 0))
 					printf(" ");
 				printf("%d", n);
 				if (j < 9)
