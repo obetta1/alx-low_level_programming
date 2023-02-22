@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - prints 10 times the alphabet, in lowercase,
+ * print_to_98 - prints 10 times the alphabet, in lowercase,
  * followed by a new line.
  * @n: number
  * Return: 0
