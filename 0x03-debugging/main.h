@@ -1,9 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-#ifndef MAIN_B
-#define MAIN_B
+#include <stdio.h>
 
 void positive_or_negative(int i);
 
-#endif
+#endif /* MAIN_H */
