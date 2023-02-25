@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * add - prints 10 times the alphabet, in lowercase,
+ * mul - multiplies two integers.
  * followed by a new line.
  * @a: number 1
  * @b: number 2
