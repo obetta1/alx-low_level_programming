@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * print_line - prints 10 times the alphabet, in lowercase,
+ * print_line - function that draws a straight line in the terminal.
  * followed by a new line.
- * Return: 0
  * @n: numbers of line.
  */
 
