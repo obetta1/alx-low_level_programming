@@ -2,7 +2,7 @@
 /**
  * print_square - prints a square,
  * followed by a new line.
- * Return: 0
+ * @size: numbers of trainge
  */
 
 void print_square(int size)
