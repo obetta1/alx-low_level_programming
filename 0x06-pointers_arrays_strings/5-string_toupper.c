@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+#include <ctype.h>
 
 /**
  * string_toupper -  function that copies a string.
