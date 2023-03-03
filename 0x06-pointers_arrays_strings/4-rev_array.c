@@ -19,6 +19,5 @@ void reverse_array(int *a, int n)
 	for (k = 0; k <= n - 1; k++)
 	{
 		a[k] = b[k];
-		printf("%d", a[k]);
 	}
 }
