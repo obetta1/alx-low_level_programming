@@ -6,7 +6,7 @@
  * @dest: duestination string
  * @src: source string
  * @n: size
- * Rrturn: the pointer is the dest string
+ * Return: the pointer is the dest string
  */
 char *_strncat(char *dest, char *src, int n)
 {
