@@ -10,7 +10,7 @@ int rev_string(char *s, int n);
 
 void _print_rev_recursion(char *s)
 {
-	rev_string(s, sizeof(s));
+	rev_string(s, strlen(s));
 }
 /**
  * rev_string - function that print the string in rev order
@@ -24,9 +24,7 @@ int rev_string(char *s, int n)
 	{
 		return (0);
 	}
-	char c = *(s + n - 1);
-
-	_putchar(c);
+	printf("%c", *(s + n - 1));
 	rev_string(s, n - 1);
 	return (0);
 }
