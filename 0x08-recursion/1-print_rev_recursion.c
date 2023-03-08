@@ -5,6 +5,8 @@
  * _print_rev_recursion - a function that prints a string in reverse.
  * @n: size of the string
  * @s: source string
+ * rev_string - function that print the string in rev order
+ * Return: always 0
  */
 int rev_string(char *s, int n);
 
