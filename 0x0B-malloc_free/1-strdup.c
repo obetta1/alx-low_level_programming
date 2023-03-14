@@ -18,7 +18,7 @@ char *_strdup(char *str)
 	}
 	else if (sr == NULL)
 	{
-		return (NULL);
+		return ("failed to allocate memory");
 	}
 	else
 	{
