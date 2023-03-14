@@ -17,7 +17,7 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	size1 = strlen(s1);
 	size2 = strlen(s2);
-	tot_size = size1 + size2;
+	tot_size = size1 + size2 + 1;
 	mo = malloc(tot_size);
 	if (size1 <= size2)
 	{
