@@ -11,6 +11,14 @@ char *_strdup(char *str)
 {
 	char *sr;
 
-	sr = strdup(str);
-	return (sr);
+	if (str == NULL)
+		return (NULL);
+	else if (sr == NULL)
+	{
+		return (NULL)
+	}
+	else
+	{
+		return (sr);
+	}
 }
