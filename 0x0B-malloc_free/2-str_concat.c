@@ -34,10 +34,5 @@ char *str_concat(char *s1, char *s2)
 		if (i < size2)
 			mo[size1 + i] = s2[i];
 	}
-
-	if (mo == NULL)
-	{
-		return (1);
-	}
 	return (mo);
 }
