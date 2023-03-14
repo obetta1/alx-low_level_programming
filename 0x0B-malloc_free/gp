@@ -1,0 +1,6 @@
+#!/bin/bash
+git add 0x0B-malloc_free
+enter commit msg
+read msg
+git commit -m $msg
+git push
