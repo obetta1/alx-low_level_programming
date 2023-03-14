@@ -22,12 +22,5 @@ char *create_array(unsigned int size, char c)
 	{
 		ar[i] = c;
 	}
-	if (ar == NULL)
-	{
-		return (NULL);
-	}
-	else
-	{
-		return (ar);
-	}
+	return (ar);
 }
