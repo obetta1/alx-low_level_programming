@@ -11,8 +11,8 @@ char *str_concat(char *s1, char *s2)
 
 	char *mo;
 
-	size1 = sizeof(s1) * sizeof(char);
-	size2 = sizeof(s2) * sizeof(char);
+	size1 = strlen(s1);
+	size2 = strlen(s2);
 	tot_size = size1 + size2;
 	mo = malloc(tot_size);
 	if (size1 <= size2)
