@@ -36,6 +36,8 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	if (mo == NULL)
+	{
 		return (1);
+	}
 	return (mo);
 }
