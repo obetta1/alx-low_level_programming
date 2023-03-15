@@ -11,13 +11,12 @@ char *_strdup(char *str)
 {
 	char *sr;
 
-	sr = strdup(str);
 	if (str == NULL)
-	{
 		return (NULL);
-	}
-	else if (sr == NULL)
+	sr = strdup(str);
+	if (sr == NULL)
 	{
+		printf("failed to allocate memory");
 		return ("failed to allocate memory");
 	}
 	else
