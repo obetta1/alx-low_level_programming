@@ -19,6 +19,11 @@ char *str_concat(char *s1, char *s2)
 	size2 = strlen(s2);
 	tot_size = size1 + size2 + 1;
 	mo = malloc(tot_size);
+	if (mo == NULL)
+	{
+		printf("Memory allocation failed\n");
+		return (NULL);
+	}
 	if (size1 <= size2)
 	{
 		tr = size2;
@@ -34,6 +39,5 @@ char *str_concat(char *s1, char *s2)
 		if (i < size2)
 			mo[size1 + i] = s2[i];
 	}
-	free(mo);
 	return (mo);
 }
