@@ -19,6 +19,8 @@ char *str_concat(char *s1, char *s2)
 	size2 = strlen(s2);
 	tot_size = size1 + size2 + 1;
 	mo = malloc(tot_size);
+	if (mo == NULL)
+		return (NLL);
 	if (size1 <= size2)
 	{
 		tr = size2;
