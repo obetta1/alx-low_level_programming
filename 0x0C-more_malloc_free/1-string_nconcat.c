@@ -8,7 +8,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i, tr, sz, size1, size2, tot_size;
+	unsigned int i, tr, sz, size1, size2, tot_size;
 
 	char *mo;
 
