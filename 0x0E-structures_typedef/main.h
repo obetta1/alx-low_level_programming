@@ -4,5 +4,5 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-void struct dog(char *name, int age, char *owner);
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif /* MAIN_H */
