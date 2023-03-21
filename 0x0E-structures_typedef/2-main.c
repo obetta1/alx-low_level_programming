@@ -8,11 +8,13 @@
  */
 int main(void)
 {
-    struct dog my_dog;
+/**`:x
+ * struct dog my_dog;
 
     my_dog.name = "Poppy";
     my_dog.age = 3.5;
-    my_dog.owner = "Bob";
-    print_dog(&my_dog);
+    my_dog.owner = NULL;
+    */
+    print_dog(NULL);
     return (0);
 }
