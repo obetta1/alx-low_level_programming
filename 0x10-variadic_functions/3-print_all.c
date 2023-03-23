@@ -18,20 +18,14 @@ void print_all(const char * const format, ...)
 		{
 			case 'c': {
 				printf("%c", va_arg(arg1, int));
-				if (i < len - 1)
-					printf(", ");
 				break;
 				}
 			case 'i': {
 				printf("%d", va_arg(arg1, int));
-				if (i < len - 1)
-					printf(", ");
 				break;
 				}
 			case 'f': {
 				printf("%f", va_arg(arg1, double));
-				if (i < len - 1)
-					printf(", ");
 				break;
 				}
 			case 's': {
@@ -39,11 +33,12 @@ void print_all(const char * const format, ...)
 				if (str == NULL)
 					str = "nill";
 				printf("%s", str);
-				if (i < len - 1)
-					printf(", ");
 				break;
 				}
 		}
+		if ((format[i] == 'c' || format[i] == 's' ||
+			format[i] == 'i' || format[i] == 'f') && i < len - 1)
+			printf(", ");
 		i++;
 	}
 	printf("\n");
