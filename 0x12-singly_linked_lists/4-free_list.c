@@ -6,13 +6,12 @@
  */
 void free_list(list_t *head)
 {
-	list_t *current_node = head;
+	list_t *current_node = malloc(sizeof(list_t));
 
-	while (current_node != NULL)
+	while (head)
 	{
-		list_t *next  = current_node->next;
-
-		free(current_node);
-		current_node = next;
+		current_node = head;
+		head = head->next;
+		free (current_node);
 	}
 }
