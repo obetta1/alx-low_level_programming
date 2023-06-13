@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - funtion that print its name
- * @argc: number of argument
+ * @argc: number of argument resent
  * @argv: the array of string argument
  * Return: alway 0
  */
